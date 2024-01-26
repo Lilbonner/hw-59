@@ -39,8 +39,8 @@ const FilmItem: React.FC<FilmItemProps> = ({ film, deleteFilm, editFilm }) => {
             ) : (
                 <div className="MovieItem" key={film.id}>
                     {film.title}
-                    <button onClick={() => setIsEditing(true)}>Edit</button>
-                    <button onClick={() => deleteFilm(film.id)}>Delete</button>
+                    <button className="edit" onClick={() => setIsEditing(true)}>Edit</button>
+                    <button className="delete" onClick={() => deleteFilm(film.id)}>Delete</button>
                 </div>
             )}
         </div>

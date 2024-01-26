@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="movie">
-          <h1>Recommended film list:</h1>
+          <h1>Films</h1>
           <FilmList/>
       </div>
       <div></div>

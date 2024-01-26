@@ -34,11 +34,13 @@ const FilmList: React.FC = () => {
     return (
         <div>
             <input
+                className="input-film"
                 type="text"
                 value={newFilm}
                 onChange={(e) => setNewFilm(e.target.value)}
             />
-            <button onClick={addFilm}>Add</button>
+            <button className="add" onClick={addFilm}>Add</button>
+            <h5>To watch list:</h5>
             <ul>
                 {films.map((film) => (
                     <FilmItem

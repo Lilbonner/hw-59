@@ -1,0 +1,52 @@
+* {
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 50px ;
+}
+
+.input-film {
+    height: 5px;
+    border-radius: 10px;
+}
+
+.add {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+h5 {
+    border-bottom: black solid 1px;
+}
+
+.MovieItem {
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 5px 0 10px 0;
+    max-width: 500px;
+}
+
+.edit {
+    margin-left: 50px;
+    align-items: flex-end;
+
+}
+
+.delete {
+    margin-left: 10px;
+    align-items: end;
+
+}
+button {
+    margin: 0 0 0 auto;
+}
