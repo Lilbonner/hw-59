@@ -1,5 +1,6 @@
 import './App.css'
 import FilmList from "./components/FilmList.tsx";
+import MemeDisplay from "./components/memeDisplay.tsx";
 
 function App() {
 
@@ -9,7 +10,9 @@ function App() {
           <h1>Films</h1>
           <FilmList/>
       </div>
-      <div></div>
+      <div className="memes">
+          <MemeDisplay/>
+      </div>
     </>
   )
 }
